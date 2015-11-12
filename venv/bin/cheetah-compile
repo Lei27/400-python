@@ -1,0 +1,10 @@
+#!/data/web/myweb/venv/bin/python3.4
+# EASY-INSTALL-ENTRY-SCRIPT: 'yelp-cheetah==0.13.0','console_scripts','cheetah-compile'
+__requires__ = 'yelp-cheetah==0.13.0'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('yelp-cheetah==0.13.0', 'console_scripts', 'cheetah-compile')()
+    )
